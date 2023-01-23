@@ -66,14 +66,14 @@ public class Main {
     private static final List<Post> posts = new ArrayList<>();
 
     static {
-        Post post1 = new Post(1, "Это первый пост, который я здесь написал.");
-        post1.addComment(new Comment("Пётр Первый", "Я успел откомментировать первым!"));
+        Post post1 = new Post(1, "Это первый пост.");
+        post1.addComment(new Comment("Первый", "Я успел откомментировать первым!"));
         posts.add(post1);
 
-        Post post2 = new Post(22, "Это будет второй пост. Тоже короткий.");
+        Post post2 = new Post(22, "Это второй пост.");
         posts.add(post2);
 
-        Post post3 = new Post(333, "Это пока последний пост.");
+        Post post3 = new Post(333, "Это  последний пост.");
         posts.add(post3);
     }
 
